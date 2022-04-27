@@ -55,4 +55,4 @@ contacts_list_res = remove_dub(contacts_list)
 
 with open("phonebook.csv", "w") as f:
     datawriter = csv.writer(f, delimiter=',')
-    datawriter.writerows(contacts_list)
+    datawriter.writerows(contacts_list_res)
